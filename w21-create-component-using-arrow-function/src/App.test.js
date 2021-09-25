@@ -12,7 +12,7 @@ describe("Should print text", () => {
   });
 });
 
-describe("Should print text", () => {
+describe("Should print text 2", () => {
   it("Should initialize Component ComponentName twice", () => {
     const wrapper = shallow(<App />);
     console.log(wrapper.html());
