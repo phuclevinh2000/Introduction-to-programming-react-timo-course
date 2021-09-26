@@ -1,9 +1,65 @@
 .tori {
   text-align: center;
   border: 1px solid red;
+  background-color: rgb(240, 239, 239);
+  width: 100%;
 }
 
 span {
   font-weight: 400;
   padding-right: 3px;
+}
+
+/* .tori>div {
+  padding: 20px 20px 0 20px;
+} */
+
+.head {
+  display: flex;
+}
+
+.head input {
+  width: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  color: grey
+}
+
+.head select {
+  margin-left: 5px;
+  width: 200px;
+}
+
+.body {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head {
+  color: red;
+  padding-top: 20px;
+}
+
+.right span{
+  color: rgb(59, 59, 150);
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.right button {
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(59, 59, 150);
+  width: 70px;
+  height: 30px;
+}
+
+.right {
+  align-items: center;
+}
+
+.left span {
+  margin-right: 10px;
 }
