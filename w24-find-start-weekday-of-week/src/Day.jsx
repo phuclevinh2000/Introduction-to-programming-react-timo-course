@@ -20,7 +20,7 @@ const Day = ({month}) => {
     var n = weekday[firstDay.getDay()];
     return (
         <div>
-            Month {month}/2019 starts {n}
+            Month {month}/2019 starts {n}d
         </div>
     )
 }

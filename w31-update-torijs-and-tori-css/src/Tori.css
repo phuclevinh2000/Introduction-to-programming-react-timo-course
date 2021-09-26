@@ -1,0 +1,9 @@
+.tori {
+  text-align: center;
+  border: 1px solid red;
+}
+
+span {
+  font-weight: 400;
+  padding-right: 3px;
+}
