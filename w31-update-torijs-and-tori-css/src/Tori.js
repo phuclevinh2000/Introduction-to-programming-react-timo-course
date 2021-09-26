@@ -28,7 +28,7 @@ const Tori = () => {
         </div>
         <div className="right">
           <span >Tallenna haku</span>
-          <button>Hae</button>
+          <button className="haeButton">Hae</button>
         </div>
       </div>
     </div>
